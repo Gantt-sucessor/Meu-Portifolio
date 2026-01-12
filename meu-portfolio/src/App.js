@@ -496,7 +496,7 @@ const Portfolio = () => {
       </style>
 
       <nav style={styles.nav}>
-        <div style={styles.logo}>GABRIEL</div>
+        <div style={styles.logo}></div>
         <div style={styles.navLinks}>
           <span className="nav-link" style={styles.navLink} onClick={() => scrollToSection('hero')}>
             Início
@@ -539,7 +539,7 @@ const Portfolio = () => {
                 <img src={profileImage} alt="Gabriel" style={styles.profileImage} />
               ) : (
                 <span style={{color: '#e91e63', fontSize: '1.1em', fontWeight: 600}}>
-                  Adicione sua foto aqui
+                  <img src="https://via.placeholder.com/150" alt="Placeholder" />
                 </span>
               )}
             </div>
